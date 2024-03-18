@@ -1,0 +1,708 @@
+@media (max-width:600px){
+    *{
+        padding: 0;margin: 0;box-sizing: border-box;font-family: 'Sans';
+    }
+    html, body{
+    width: 100%;
+    height: 100%;
+    }
+    main{  
+        background-color: #f7f7ef;
+        position: relative;
+        z-index: -9;
+    }
+    .pg1{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 9;
+    }
+    .backimg{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: -1}
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+    }
+    nav h4{
+        font-size: 5vw;
+    }
+    nav button:nth-child(1){
+        font-size: 3vw;
+        padding: .5vw 1.5vw;
+        background-color: white;
+        color: #5d654a;
+        border: 1px solid rgba(0, 0, 0, 0.265);
+        border-radius: 100px;
+    }
+    nav button:nth-child(2){
+        font-size: 3vw;
+        padding: .5vw 1.5vw;
+        background-color: #5d654a;
+        color: white;
+        border: 1px solid rgba(0, 0, 0, 0.265);
+        border-radius: 100px;
+    }
+    .hero{
+        width: 100%;
+        height: 80vh;
+    
+    }
+    .hero h1{
+        font-size: 10vw;
+        color: #454b37;
+        font-weight: 450;
+        text-align: center;
+        font-family: 'Woodland';
+    }
+    .hero h4{
+        font-size: 4vw;
+        letter-spacing: .1vw;
+        text-align: center;
+        color: #454b37;
+        font-family: "Woodland";
+    }
+    .pg2{
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    background-color: #626b4f;
+    padding: 5vw;
+    }
+    .pg2 p{
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 600;
+        width: 80%;
+        color:#8b979f;
+        font-family: 'Woodland';
+    }
+    .pg2 span{
+        color: #e1e3ca;
+    }
+     span{
+        font-family: 'Woodland';
+    }
+    .pg3{
+        width: 100%;
+        min-height: 100vh;
+        background-color: #f7f7ef;
+    }
+    .pg3-1   { width: 100%;
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg3-1 p{
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 600;
+        width: 85%;
+        color: #e3e4ca;
+        font-family: 'Woodland';
+    }
+    .pg3-1 span{
+        color: black;
+    }
+    .pg3-2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .pg3-2 .left{
+        height: 60%;
+        width: 100%;
+        padding-left: 10vw;
+        padding-right: 2vw;
+    }
+    .pg3-2 .right{
+        height: 40%;
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .pg3-2 .left .top{
+        width: 100%;
+        height: 30%;
+    }
+    .pg3-2 p{
+        font-size: 3vw;
+        width: 70%;
+    }
+    .pg3-2 button{
+        font-size: 2.8vw;
+        color: white;
+        padding: .4vw 1.5vw;
+        background-color: #5d654a;
+        margin-top: 1vw;
+        border: 0;
+        border-radius: 100px;
+        margin-top: 3vw;
+    }
+    .pg3-2 .left .bottom{
+        width: 100%;
+        height: 60%;
+    }
+    .pg3-2 .img{
+        width: 95%;
+        height: 95%;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .pg3-2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pg3-2 .right .top{
+        width: 100%;
+        height: 65%;
+    }
+    .pg3-2 .right .bottom{
+        width: 55%;
+        height: 35%;
+    }
+    .pg4{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .pg4-1  {  width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4vw 8vw;
+        margin-top: 7vw;
+    }
+    .pg4-1 section{
+        width: 100%;
+        height: 15vh;
+        border-bottom: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vw;
+        overflow: hidden;
+        transition: all linear 0.5s;
+        position: relative;
+    }
+    .pg4-1 section:nth-child(1){
+        border-top: 1px solid black;
+    }
+    .pg4-1 ul{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2vw;
+        position: absolute;
+        transition: all linear 0.5s;
+    left: 5%;
+    }
+    .pg4-1 h1{
+        font-size:7vw;
+        color: #454b37;
+        font-weight: 400;
+        font-family: "Woodland";
+        transition: all linear 0.5s;
+    }
+    .pg4-1 h4{
+        font-size: 3vw;
+        transition: all linear 0.5s;
+        width: 85%;
+    }
+    .pg4-1 span{
+        font-size: 1.5vw;
+        padding: .1vw 1.5vw;
+        background-color: #454b37;
+        color: white;
+        border-radius: 100px;
+        font-family:DM Sans ;
+        position: absolute;
+        right: 10%;;
+        opacity: 0;
+    }
+    .pg4-1 .img{
+        height: 100%;
+        width: 25%;
+        position: absolute;
+        left:-25%;
+        transition: all linear 0.5s;
+    }
+    .pg4-1 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg4-2{
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 0 5vw;
+        display: none;
+    }
+    .pg4-2 .container{
+        height: 80%;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 4vw;
+    }
+    .pin-spacer{
+        display: none;
+    }
+    .pg4-2 .img{
+        height: 100%;
+        width: 100vw;
+        overflow: hidden;
+        border-radius: 20px;
+        flex-shrink: 0;
+    }
+    .pg4-2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg5{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .pg5-1{
+        width: 100%;
+        min-height: 230vh;
+        background-color: #1c354d;
+    }
+    .pg5-1 .top{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        gap: 7vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg5-1 .top p{
+        font-size: 8vw;
+        width: 85%;
+        font-family: "Woodland";
+        text-align: center;
+        color: #223e5a;
+    }
+    .pg5-1 span{
+        color: #e2e3c7;
+    }
+    .pg5-1 .top .smalltext{
+        text-align: center;
+        font-size: 4vw;
+        color: white;
+        font-family: DM Sans;
+        width: 75%;
+    }
+    .pg5-1 .bottom{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5vw;
+        margin-top: 7vw;
+    }
+    .pg5-1 .bottom .elem{
+    height: 50vh;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    }
+    .pg5-1 .elem .img{
+        height: 45%;
+        width: 78%;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .pg5-1 .elem img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg5-1 .bottom h3{
+        font-size: 8vw;
+        width: 95%;
+        font-family: "Woodland";
+        color: #e3e4ca;
+    }
+    .pg5-1 .bottom p{
+        font-size: 3.5vw;
+        color: white;
+        width: 90%;
+    }
+    .pg5-1 .bottom2{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg5-1 .bottom2 h3{
+        font-size: 6vw;
+    color: #e3e4ca;
+    font-weight: 400;
+    }
+    .pg6{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .pg6-1{
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pg6-1 p{
+        font-size: 8vw;
+        width: 85%;
+        text-align: center;
+        color: #e2e3c7;
+    }
+    .pg6-1 span{
+        color: black;
+    }
+    .pg6-2{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .pg6-2 .textdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3vw;
+        width: 40%;
+        opacity: 0;
+        margin-top: 5vw;
+        flex-shrink: 0;
+    }
+    .pg6-2 h1{
+        font-size:6vw;
+        width: 100%;
+        text-align: center;
+        font-family: "Woodland";
+        line-height: 4vw;
+        color: #454b37;
+        line-height: 1;
+    }
+    .pg6-2 p{
+        width: 95%;
+        text-align: center;
+        font-size: 2.9vw;
+    }
+    .pg6-2 button{
+        font-size: 3vw;
+        padding: .8vw 1.8vw;
+        background-color: #626b4f;
+        color: white;
+        border-radius: 100px;
+        border: 0;
+       
+    }
+    .pg6-2 .img{
+        height: 100%;
+        width: 50%;
+        overflow: hidden;
+        border-radius: 20px;
+        position: absolute;
+        z-index: 999;
+    }
+    .pg6-2 .img:nth-child(1){
+        left: -5%;
+    }
+    .pg6-2 .second{
+        right: -5%;
+    }
+    .pg6-2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+    }
+    .pg6-3{
+        height: 50vh;
+        width: 100%;
+        margin-top: 5vw;
+        overflow: hidden;
+    }
+    .pg6-3 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg7{
+        width: 100%;
+        min-height: 50vh;
+    background-color: #626b4f;
+    }
+    .pg7-1{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .pg7-1 .text{
+        font-size: 8vw;
+        width: 85%;
+        text-align: center;
+        font-family: "Woodland";
+        color: #454b37;
+    }
+    .pg7-1 p{
+        font-size: 4vw;
+        color: white;
+        width: 80%;
+        text-align: center;
+    }
+    .pg7-1 span{
+        color: #e2e3c7;
+    }
+    .pg7-2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .pg7-2 .center{
+        width: 100%;
+        height: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        display: none;
+    }
+    .pg7-2 .center img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg7-2 .center .img:nth-child(1){
+        width: 27%;
+        height: 65%;
+        align-self: self-end;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .pg7-2 .center .img:nth-child(2){
+        width: 27%;
+        height: 100%;
+        align-self: center;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .pg7-2 .center .img:nth-child(3){
+        width: 27%;
+        height: 65%;
+        align-self: self-start;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .pg7-3{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+    .pg7-3 h4{
+        font-size: 2.5vw;
+        color: #e2e3c7;
+        font-weight: 400;
+    }
+    .pg8{
+        width: 100%;
+        min-height: 50vh;
+    }
+    .pg8-1{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .pg8-1 .text{
+        font-size: 8vw;
+        color: #454b37;
+        text-align: center;
+        font-family: "Woodland";
+        font-weight: 400;
+        width: 95%;
+    }
+    .pg8-1 span{
+        color: #454b37;
+    }
+    .pg8-1 p{
+        font-size: 4vw;
+        width: 85%;
+        text-align: center;
+    }
+    .pg8-2{
+        width: 100%;
+        height: 100vh;
+        padding: 0 7vw;
+        display: none;
+    }
+    .pg8-2 section{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+    .pg8-2 .left{
+        height: 90%;
+        width: 35%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    .pg8-2 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg8-2 .right{
+        width: 65%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2.5vw;
+    }
+    .pg8-2 h1{
+        font-size: 3vw;
+        font-weight: 400;
+        color: #454b37;
+        font-family: "Woodland";
+    }
+    .pg8-2 p{
+        font-size: 1.2vw;
+        width: 50%;
+    }
+    .pg8-2 button{
+        padding: .5vw 1.3vw;
+        background-color: #5d654a;
+        font-size: 1.7vw;
+        color: white;
+        border-radius: 100px;
+        border: 0;
+        
+    }
+    .pg9{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+    .pg9 img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .pg9 .card{
+        width: 90%;
+        height: 30%;
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        border-radius: 20px;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3vw;
+        background-color: #454b37;
+    }
+    .pg9 h1{
+        font-size: 6vw;
+        font-weight: 400;
+        color: #e2e3c7;
+        font-family: "Woodland";
+    }
+    .pg9 h4{
+        font-size: 4vw;
+        color: white;
+    }
+    footer{
+        width: 100%;
+        height: 45vh;
+        background-color: #1c354d;
+        padding: 2vw;
+        padding-bottom: .5vw;
+    }
+    footer .top{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4vw;
+    }
+    footer h1{
+        font-size: 10vw;
+        font-weight: 400;
+        font-family: "Woodland";
+        color: #e2e3c7;
+    }
+    footer h4{
+        font-size: 5vw;
+        color: white;
+        font-family: "Woodland";
+        letter-spacing: .1vw;
+    }
+    footer .bottom{
+        width: 100%;
+        min-height: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    footer h5{
+        font-size: 2vw;
+        color: #8b979f;
+    }
+}
